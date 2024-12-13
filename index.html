@@ -6,45 +6,56 @@
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/styles.css" />
-    <title>AI French Poem Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <title> Odyssera </title>
   </head>
   <body>
     <div class="container">
       <header>
-        <h1>AI French Poem Generator</h1>
+        <h1> 
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="header-icon">
+            <path fill-rule="evenodd" d="m11.54 22.351.07.04.028.016a.76.76 0 0 0 .723 0l.028-.015.071-.041a16.975 16.975 0 0 0 1.144-.742 19.58 19.58 0 0 0 2.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 0 0-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 0 0 2.682 2.282 16.975 16.975 0 0 0 1.145.742ZM12 13.5a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" clip-rule="evenodd" />
+          </svg>
+          Odyssera
+        </h1>
+        <h2>🌍✈️ Your journey, perfectly planned with ease</h2>
       </header>
-
       <main>
         <div class="form-container">
           <form id="poem-generator-form">
             <input
               type="text"
-              placeholder="Enter the topic of a French poem"
+              placeholder="Where are you going to travel?"
               autofocus
               required
               autocomplete="off"
               class="instructions"
               id="user-instructions"
             />
-            <input type="submit" class="submit-button" />
+            <input type="submit" class="submit-button" value="Send" />
           </form>
-          <div class="hint">i.e: Flower, Paris or Cheese</div>
+          <div class="hint">Odyssera makes planning your perfect trip easy, so you can just enjoy the journey.</div>
         </div>
         <div class="poem hidden" id="poem"></div>
       </main>
 
       <footer>
         This AI project was coded by
-        <a href="https://github.com/matthieua/" target="_blank">Matt Delac</a>
+        <a href="" target="_blank">Lau Carrillo</a>
         and is
         <a
-          href="https://github.com/shecodesio/french-poem-generator"
+          href=""
           target="_blank"
         >
           open-sourced on GitHub</a
         >
         and is
-        <a href="https://ai-french-poem-generator.netlify.app/" target="_blank"
+        <a href="" target="_blank"
           >hosted on Netlify</a
         >.
       </footer>
